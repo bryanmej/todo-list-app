@@ -1,0 +1,86 @@
+body {
+	font-family: 'Just Another Hand', cursive;
+	background: #ED4264;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ED4264, #FFEDBC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+h1 {
+	background: #2980b9;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+}
+
+.fa-pencil-alt {
+	float: right;
+	padding-top: 5px;
+	font-size: 0.9em;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+}
+
+li:nth-child(2n) {
+	background: #f7f7f7;
+}
+
+input {
+	box-sizing: border-box;
+	width: 100%;
+	background: #f7f7f7;
+	height: 40px;
+	outline: none;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Just Another Hand', cursive;
+	font-size: 1.8em;
+	border: 3px solid rgba(0, 0, 0, 0);
+	display: none;
+}
+
+span {
+	background: red;
+	height: 40px;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	margin-right: 20px;
+	width: 0;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+li:hover span {
+	width: 40px;
+	opacity: 1.0;
+}
+
+#container {
+	width: 380px;
+	margin: 100px auto;
+	background: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.11);
+}
+
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
